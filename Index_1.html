@@ -4,22 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variable</title>
+    <title>Variable1</title>
     <style>
         :root {
-            --img-size-: 300px;
+            --img-size-: 400px;
         }
 
         img {
             width: calc(var(--img-size-) / 5);
             height: calc(var(--img-size-) / 5);
+            /* transition: 1s; */
 
         }
 
         img:hover {
             width: var(--img-size-);
             height: var(--img-size-);
-            transition: 3s;
             filter: grayscale(100%);
             filter: drop-shadow(16px 16px 20px green);
 
@@ -28,12 +28,12 @@
 </head>
 
 <body>
-    <div>
 
-        <img src="avatarko_anonim.jpg" alt="картинка">
-    </div>
     <img src="unnamed.jpg" alt="картинка">
-
+    <img src="unnamed.jpg" alt="картинка">
+    <img src="avatarko_anonim.jpg" alt="картинка">
+    <img src="unnamed.jpg" alt="картинка">
+    <img src="unnamed.jpg" alt="картинка">
 </body>
 
 </html>
